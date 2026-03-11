@@ -1,55 +1,54 @@
-# AWS re/Start | 12-Week Cloud Engineering Intensive
+# AWS re/Start Portfolio: 12-Week Cloud Engineering Intensive
+## Candidate: [Your Name] | Specialized in Cloud Infrastructure & Operations
 
-This repository serves as a technical portfolio documenting my 12-week journey through the AWS re/Start program. This intensive, full-time program focuses on building core cloud computing skills, professional troubleshooting, and hands-on infrastructure management.
+This repository serves as my professional technical portfolio. It documents my progression through the AWS re/Start program, an intensive workforce development initiative designed to build career-ready cloud computing skills.
 
 ---
 
-## Daily Operational Workflow
-My daily routine is structured to emulate a professional DevOps environment. I focus on consistency, technical deep-dives, and peer collaboration.
+## The Daily Operational Routine
+Recruiters often ask about my technical discipline. My daily schedule is designed to emulate a professional Cloud Support or DevOps environment:
 
-### Morning: Foundation & Architecture
-* **09:00 – 10:30:** Technical instruction on core IT pillars including Linux Administration, Networking (OSI, TCP/IP), and Security.
-* **10:30 – 12:30:** Guided labs focusing on AWS Global Infrastructure (VPCs, Subnets, and Route Tables).
+### Phase 1: Infrastructure Foundations (09:00 - 11:00)
+* **Technical Deep Dives:** Exploring the architecture of the OSI model, TCP/IP, and Linux kernel operations.
+* **Security-First Planning:** Applying IAM Least Privilege principles and Security Group configurations before any deployment.
 
-### Afternoon: Build & Automate
-* **13:30 – 15:30:** Scenario-based sandbox challenges. I spend this time building high-availability architectures and practicing "troubleshooting as a service."
-* **15:30 – 17:00:** Scripting and Automation. Developing Python and Bash scripts to automate manual AWS tasks (e.g., EBS snapshotting or IAM user creation).
+### Phase 2: Hands-on Laboratory & Troubleshooting (11:00 - 14:00)
+* **Resource Deployment:** Building and configuring AWS services including VPCs, EC2 instances, S3 buckets, and RDS databases.
+* **Problem Solving:** Using the AWS CLI and Management Console to debug connectivity issues, permission errors, and resource bottlenecks.
+
+### Phase 3: Automation & Scripting (14:00 - 16:30)
+* **Python Development:** Writing Boto3 scripts to automate repetitive cloud tasks.
+* **Linux Administration:** Managing users, permissions, and services via the Bash terminal.
+
+### Phase 4: Professional Alignment (16:30 - 17:00)
+* **Documentation:** Updating this repository with lab outcomes and architectural diagrams.
+* **Leadership Principles:** Participating in daily stand-ups and peer-led code reviews.
 
 ---
 
 ## Technical Skills Matrix
 
-| Domain | Proficiency |
+| Domain | Competencies |
 | :--- | :--- |
-| **AWS Core Services** | IAM, EC2, S3, RDS, VPC, Lambda, CloudWatch, Route 53 |
-| **Operating Systems** | Linux (Ubuntu/Amazon Linux), Shell Scripting (Bash) |
-| **Networking** | DNS, DHCP, HTTP/S, Subnetting, Security Groups, NACLs |
-| **Automation** | Python (Boto3 SDK), Infrastructure as Code (CloudFormation) |
-| **Methodology** | Agile, ITIL Foundations, Amazon Leadership Principles |
+| **Compute** | Amazon EC2, AWS Lambda, Auto Scaling, Elastic Load Balancing (ELB) |
+| **Storage** | Amazon S3, Amazon EBS, Amazon EFS |
+| **Networking** | VPC, Subnetting, Route Tables, NAT Gateways, Route 53 |
+| **Security** | IAM, Security Groups, NACLs, AWS KMS |
+| **Programming** | Python (Boto3 SDK), Bash Scripting, Linux (Ubuntu/Amazon Linux) |
+| **DevOps** | Git/GitHub, CI/CD Fundamentals, CloudFormation |
 
 ---
 
-## Featured Lab Highlights
+## Mandatory Repository Structure
+Following the Praesignis standards, this repository is organized as follows:
 
-### 1. Multi-Tier VPC Architecture
-Developed a secure, highly available network with public and private subnets across multiple Availability Zones.
-* **Tools used:** VPC, NAT Gateway, Internet Gateway, EC2.
-* **Outcome:** Created a secure environment where the database is isolated from the public internet.
-
-### 2. Automated Resource Management
-Wrote a Python script using the Boto3 library to identify and clean up orphaned AWS resources.
-* **Tools used:** Python, CloudWatch, Boto3.
-* **Outcome:** Reduced potential cloud costs by 15% in a simulated environment.
+* `/Labs` - Specific technical exercises categorized by subject.
+* `/Projects` - Real-world business scenarios and architectural builds.
+* `/Certs-Badges` - Verified certifications and digital badges.
 
 ---
 
-## Professional Certifications & Goals
-* **In Progress:** AWS Certified Cloud Practitioner (CLF-C02)
-* **Goal:** Transitioning into a Cloud Support Associate or Junior Cloud Engineer role.
-
----
-
-## Connect With Me
-* **LinkedIn:** [Insert Link Here]
-* **Email:** [Insert Email Here]
-* **Portfolio:** [Insert Link to Personal Site or Blog]
+## Key Projects Highlight
+### Multi-Tier High-Availability Architecture
+* **Objective:** Deploy a web application that survives a single Availability Zone failure.
+* **Solution:** Configured an Application Load Balancer (ALB) across

@@ -1,8 +1,9 @@
-Introduction to Amazon EC2
+**Introduction to Amazon EC2**
 
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable, pay-as-you-go virtual servers in the cloud. It allows for the rapid deployment of computing capacity without the need for upfront hardware investment, making web-scale computing easier for developers.
 
 Core Capabilities
+
 - On-Demand Scaling: Ability to scale capacity up or down in minutes to meet changing computing requirements.
 
 - Full Administrative Control: Complete access to the instance lifecycle, including choosing the Operating System (Linux/Windows) and resource configuration.
@@ -23,7 +24,6 @@ Monitoring & Health: Utilized AWS monitoring tools to track instance performance
 Lifecycle Management: Validated Termination Protection through testing and successfully managed the full instance lifecycle, including the final Termination of resources.
 
 **Project: Amazon EC2 Lifecycle and Administration**
-
 
 In this lab, I gained hands-on experience managing the full lifecycle of an Amazon Elastic Compute Cloud (EC2) instance. I practiced deploying a web server, configuring network security, monitoring performance, and performing vertical scaling by resizing instance resources.
 

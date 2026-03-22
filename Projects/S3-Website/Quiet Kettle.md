@@ -1,3 +1,4 @@
+
 # Project: Static Website Hosting on Amazon S3
 
 This repository documents the successful deployment of a static website using Amazon S3. The following steps were completed to configure the environment and host the site.
